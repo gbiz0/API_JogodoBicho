@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class contraventorService {
@@ -24,8 +25,8 @@ public class contraventorService {
     }
 
     //List by Contraventor id
-    public List<contraventor> getContraventorById(Long id_cont) {
-        return repository.findAllById(List.of(id_cont));
+    public Optional<contraventor> getContraventorById(Long id_cont) {
+        return repository.findById(id_cont);
     }
 
     //Delete Contraventor
@@ -33,7 +34,22 @@ public class contraventorService {
          repository.deleteById(id_cont);
     }
 
-    public contraventor updateContraventor(contraventor contraventor) {
-        return repository.save(contraventor);
+    //Update Contraventor
+    public contraventor updateContraventor(Long id_cont, contraventor contraventor) {
+        Optional<contraventor> oldContraventor = repository.findById(id_cont);
+
+        if (oldContraventor.isPresent()) {
+            contraventor newContraventor = oldContraventor.get();
+
+            newContraventor.setNome_cont(contraventor.getNome_cont());
+            newContraventor.setCpf_cont(contraventor.getCpf_cont());
+            newContraventor.setTipo_cont(contraventor.getTipo_cont());
+            newContraventor.setLogin_cont(contraventor.getLogin_cont());
+            newContraventor.setSenha_cont(contraventor.getSenha_cont());
+
+            return repository.save(newContraventor);
+        } else {
+            throw new RuntimeException("Contraventor with id: "+id_cont+" not found");
+        }
     }
 }
