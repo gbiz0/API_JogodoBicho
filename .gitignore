@@ -1,0 +1,2 @@
+#ignore conection factory
+/src/main/resources/application.properties
