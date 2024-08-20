@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c058f7bc-f0e0-489f-852d-34338d54faba" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gbizo/API_JogodoBicho/config/SecurityConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gbizo/API_JogodoBicho/controller/contraventorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gbizo/API_JogodoBicho/controller/contraventorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gbizo/API_JogodoBicho/service/contraventorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gbizo/API_JogodoBicho/service/contraventorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/controller/contraventorController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/service/contraventorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/service/contraventorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/service/contraventorService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +54,9 @@
     &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;Spring Boot.ApiJogodoBichoApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;contraventorBranch&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/gbiz0/DEV/API_JogodoBicho&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -96,7 +96,10 @@
       <workItem from="1723731362843" duration="3279000" />
       <workItem from="1723734733163" duration="151000" />
       <workItem from="1723734892544" duration="628000" />
-      <workItem from="1723812309567" duration="2217000" />
+      <workItem from="1723812309567" duration="4384000" />
+      <workItem from="1724087124900" duration="817000" />
+      <workItem from="1724089058690" duration="1831000" />
+      <workItem from="1724168585943" duration="4117000" />
     </task>
     <servers />
   </component>
