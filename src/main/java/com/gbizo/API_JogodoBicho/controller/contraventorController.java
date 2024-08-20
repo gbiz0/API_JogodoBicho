@@ -2,6 +2,7 @@ package com.gbizo.API_JogodoBicho.controller;
 
 import com.gbizo.API_JogodoBicho.model.contraventor;
 import com.gbizo.API_JogodoBicho.service.contraventorService;
+import java.util.Optional;
 import org.hibernate.annotations.UpdateTimestamp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -30,9 +31,14 @@ public class contraventorController {
     }
 
     @GetMapping("/select/{id_cont}")
-    public ResponseEntity<contraventor> getContraventorById(@PathVariable Long id_cont){
-        List<contraventor> byId = service.getContraventorById(id_cont);
-        return new ResponseEntity<>(byId.get(0), HttpStatus.OK);
+    public ResponseEntity<?> getContraventorById(@PathVariable Long id_cont){
+        Optional<contraventor> optionalContraventor = service.getContraventorById(id_cont);
+
+        if(optionalContraventor.isPresent()){
+            return new ResponseEntity<>(optionalContraventor.get(), HttpStatus.OK);
+        } else {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Contraventor Not Found");
+        }
     }
 
     @DeleteMapping("/delete/{id_cont}")
@@ -41,8 +47,13 @@ public class contraventorController {
     }
 
     @PutMapping("/edit/{id_cont}")
-    public ResponseEntity<contraventor> updateContraventor(@RequestBody contraventor contraventor){
-        contraventor updatedContraventor = service.updateContraventor(contraventor);
-        return new ResponseEntity<>(updatedContraventor, HttpStatus.OK);
+    public ResponseEntity<contraventor> updateContraventor(@PathVariable Long id_cont, @RequestBody contraventor contraventor){
+        try {
+            contraventor updatedContraventor = service.updateContraventor(id_cont, contraventor);
+            return new ResponseEntity<>(updatedContraventor, HttpStatus.OK);
+        }
+        catch (Exception e){
+    return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
     }
 }
