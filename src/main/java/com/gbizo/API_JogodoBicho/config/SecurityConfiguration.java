@@ -14,6 +14,8 @@ public class SecurityConfiguration {
             return http
                     .authorizeHttpRequests(auth -> {
                         auth.requestMatchers("/api/contraventor/selectAll").permitAll();
+                        auth.requestMatchers("/api/cliente/selectAll").permitAll();
+                        auth.requestMatchers("/api/cliente/select/{id_cli}").permitAll();
                         auth.requestMatchers("/api/contraventor/select/{id_cont}").permitAll();
                         auth.requestMatchers("/api/contraventor/create").permitAll();
                         auth.anyRequest().authenticated();
