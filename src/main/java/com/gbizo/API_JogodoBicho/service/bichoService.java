@@ -15,6 +15,7 @@ public class bichoService {
     public bicho createBicho(bicho bicho) {
         return repository.save(bicho);
     }
+
     //List Bicho
     public List<bicho> getAllBicho() {
         return repository.findAll();

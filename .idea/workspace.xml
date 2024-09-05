@@ -5,23 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c058f7bc-f0e0-489f-852d-34338d54faba" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/76c3e1e6-31fc-4a1a-81aa-a945535be32f.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/76c3e1e6-31fc-4a1a-81aa-a945535be32f/storage_v2/_src_/database/jogo_bicho.MVU00w.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/76c3e1e6-31fc-4a1a-81aa-a945535be32f/storage_v2/_src_/database/jogo_bicho.MVU00w/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/98c3c3e0-c011-4c6b-aec8-3e5e15c2fcaa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/98c3c3e0-c011-4c6b-aec8-3e5e15c2fcaa.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gbizo/API_JogodoBicho/config/SecurityConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gbizo/API_JogodoBicho/model/bicho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gbizo/API_JogodoBicho/model/bicho.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gbizo/API_JogodoBicho/service/bichoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gbizo/API_JogodoBicho/service/bichoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gbizo/API_JogodoBicho/service/contraventorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gbizo/API_JogodoBicho/service/contraventorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/config/SecurityConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/model/bicho.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/model/bicho.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/service/bichoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/service/bichoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/service/contraventorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/service/contraventorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/ApiJogodoBichoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/controller/bichoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/controller/clienteController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/controller/contraventorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/model/bicho.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/model/cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/model/contraventor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/repository/bichoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/repository/clienteRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/repository/contraventorRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/service/bichoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/service/clienteService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/service/contraventorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gbizo/API_JogodoBicho/ApiJogodoBichoApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +124,7 @@
       <workItem from="1724186431249" duration="304000" />
       <workItem from="1724258578477" duration="1823000" />
       <workItem from="1725547618673" duration="1858000" />
-      <workItem from="1725559696333" duration="526000" />
+      <workItem from="1725559696333" duration="2824000" />
     </task>
     <servers />
   </component>
