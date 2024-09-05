@@ -16,7 +16,7 @@ public class bicho {
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
     Long id_bicho;
-    String nome_bicho, tipo_aposta, banca_aposta;
+    String nome_bicho, tipo_aposta, banca_aposta, forma_pagamento;
     Double val_aposta;
     Date data_aposta;
     Long id_cont, id_cli;

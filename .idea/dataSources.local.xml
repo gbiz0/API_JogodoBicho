@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="dataSourceStorageLocal" created-in="IU-242.20224.387">
-    <data-source name="jogo_bichoDB@localhost" uuid="98c3c3e0-c011-4c6b-aec8-3e5e15c2fcaa">
+  <component name="dataSourceStorageLocal" created-in="IU-242.21829.142">
+    <data-source name="bicho_db@localhost" uuid="98c3c3e0-c011-4c6b-aec8-3e5e15c2fcaa">
       <database-info product="PostgreSQL" version="14.12 (Ubuntu 14.12-0ubuntu0.22.04.1)" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.6.0" dbms="POSTGRES" exact-version="14.12" exact-driver-version="42.6">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>

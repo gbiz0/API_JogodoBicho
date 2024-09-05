@@ -42,6 +42,7 @@ public class bichoService {
             newBicho.setVal_aposta(newBicho.getVal_aposta());
             newBicho.setBanca_aposta(newBicho.getBanca_aposta());
             newBicho.setData_aposta(newBicho.getData_aposta());
+            newBicho.setForma_pagamento(newBicho.getForma_pagamento());
             newBicho.setId_cont(newBicho.getId_cont());
             newBicho.setId_cli(newBicho.getId_cli());
             return repository.save(newBicho);
