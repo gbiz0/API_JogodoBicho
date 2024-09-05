@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c058f7bc-f0e0-489f-852d-34338d54faba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gbizo/API_JogodoBicho/controller/bichoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gbizo/API_JogodoBicho/model/bicho.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gbizo/API_JogodoBicho/repository/bichoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gbizo/API_JogodoBicho/service/bichoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gbizo/API_JogodoBicho/config/SecurityConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gbizo/API_JogodoBicho/service/contraventorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gbizo/API_JogodoBicho/service/contraventorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/config/SecurityConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/service/contraventorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/service/contraventorService.class" afterDir="false" />
-    </list>
+    <list default="true" id="c058f7bc-f0e0-489f-852d-34338d54faba" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
