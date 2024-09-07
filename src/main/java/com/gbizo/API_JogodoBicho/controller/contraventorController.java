@@ -1,12 +1,17 @@
 package com.gbizo.API_JogodoBicho.controller;
 
+import com.gbizo.API_JogodoBicho.config.security.TokenService;
+import com.gbizo.API_JogodoBicho.dto.authDTO;
 import com.gbizo.API_JogodoBicho.model.contraventor;
 import com.gbizo.API_JogodoBicho.service.contraventorService;
 import java.util.Optional;
-import org.hibernate.annotations.UpdateTimestamp;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -18,8 +23,22 @@ public class contraventorController {
     @Autowired
     private contraventorService service;
 
+    @Autowired
+    private AuthenticationManager authentication;
+    @Autowired
+    private TokenService tokenService;
+
+    @PostMapping("/login")
+    public ResponseEntity login(@RequestBody @Valid authDTO authDTO){
+        var userPassword = new UsernamePasswordAuthenticationToken(authDTO.login(), authDTO.password());
+        var auth = this.authentication.authenticate(userPassword);
+        var token = tokenService.generateToken((contraventor) auth.getPrincipal());
+
+        return ResponseEntity.ok().build();
+    }
+
     @PostMapping("/create")
-    public ResponseEntity<contraventor>createContraventor(@RequestBody contraventor contraventor){
+    public ResponseEntity<contraventor>createContraventor(@RequestBody @Valid contraventor contraventor){
         contraventor newContraventor = service.createContraventor(contraventor);
         return new ResponseEntity<>(newContraventor, HttpStatus.CREATED);
     }
