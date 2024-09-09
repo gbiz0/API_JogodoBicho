@@ -28,11 +28,15 @@ public class AuthConfig {
                 .csrf(csrf -> csrf.disable())
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(authorizeRequests -> authorizeRequests
+                        // Permitir acesso ao Swagger
+                        .requestMatchers("/swagger-ui/**").permitAll()
+                        .requestMatchers("/v3/api-docs/**").permitAll()
+                        .requestMatchers("/v3/api-docs.yaml").permitAll()
+                        
                         .requestMatchers(HttpMethod.POST, "/api/contraventor/login").permitAll()
                         .requestMatchers(HttpMethod.POST, "/api/contraventor/create").permitAll()
                         .requestMatchers(HttpMethod.GET, "/api/contraventor/selectAll").permitAll()
-                        .requestMatchers(HttpMethod.GET, "/swagger-ui/index.html").permitAll()
-                        .requestMatchers(HttpMethod.POST, "/api/contraventor/").hasRole("admin")
+                        .requestMatchers(HttpMethod.GET, "/api/contraventor/").hasRole("admin")
                         .anyRequest().authenticated()
                 )
                 .addFilterBefore(securityFilter, UsernamePasswordAuthenticationFilter.class)

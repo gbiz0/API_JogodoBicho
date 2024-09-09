@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c058f7bc-f0e0-489f-852d-34338d54faba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/gbizo/API_JogodoBicho/repository/contraventorRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gbizo/API_JogodoBicho/config/security/AuthConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gbizo/API_JogodoBicho/config/security/AuthConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gbizo/API_JogodoBicho/config/security/SecurityFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gbizo/API_JogodoBicho/config/security/SecurityFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/config/security/AuthConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/config/security/AuthConfig.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +113,7 @@
       <workItem from="1725559696333" duration="5261000" />
       <workItem from="1725578467310" duration="8132000" />
       <workItem from="1725661419144" duration="3947000" />
-      <workItem from="1725920192013" duration="1678000" />
+      <workItem from="1725920192013" duration="1939000" />
     </task>
     <servers />
   </component>
