@@ -30,6 +30,7 @@ public class AuthConfig {
                 .authorizeHttpRequests(authorizeRequests -> authorizeRequests
                         .requestMatchers(HttpMethod.POST, "/api/contraventor/login").permitAll()
                         .requestMatchers(HttpMethod.POST, "/api/contraventor/create").permitAll()
+                        .requestMatchers(HttpMethod.GET, "/api/contraventor/selectAll").permitAll()
                         .requestMatchers(HttpMethod.GET, "/swagger-ui/index.html").permitAll()
                         .requestMatchers(HttpMethod.POST, "/api/contraventor/").hasRole("admin")
                         .anyRequest().authenticated()
