@@ -12,7 +12,6 @@ Este projeto é uma API desenvolvida em **Java Spring Boot** para o jogo do bich
 - **Documentação**: Swagger UI integrada para visualizar e testar os endpoints da API.
 - **Banco de Dados**: PostgreSQL como banco de dados relacional.
 - **Testes**: Testes unitários implementados com Mockito.
-- **Futuro**: Planejo desenvolver um front-end (provavelmente em React com Axios) para consumir esta API e realizar o deploy em um servidor.
 
 ## Tecnologias Utilizadas
 
