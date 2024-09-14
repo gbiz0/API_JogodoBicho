@@ -32,7 +32,7 @@ public class AuthConfig {
                         .requestMatchers("/swagger-ui/**").permitAll()
                         .requestMatchers("/v3/api-docs/**").permitAll()
                         .requestMatchers("/v3/api-docs.yaml").permitAll()
-                        
+
                         .requestMatchers(HttpMethod.POST, "/api/contraventor/login").permitAll()
                         .requestMatchers(HttpMethod.POST, "/api/contraventor/create").permitAll()
                         .requestMatchers(HttpMethod.GET, "/api/contraventor/selectAll").permitAll()

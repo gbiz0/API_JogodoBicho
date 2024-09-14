@@ -5,9 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c058f7bc-f0e0-489f-852d-34338d54faba" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gbizo/API_JogodoBicho/controller/contraventorControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application-test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/98c3c3e0-c011-4c6b-aec8-3e5e15c2fcaa.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/98c3c3e0-c011-4c6b-aec8-3e5e15c2fcaa/storage_v2/_src_/database/jogo_bichoDB.b9Vz1w.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/98c3c3e0-c011-4c6b-aec8-3e5e15c2fcaa/storage_v2/_src_/database/jogo_bichoDB.b9Vz1w/schema/public.abK9xQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gbizo/API_JogodoBicho/config/security/AuthConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gbizo/API_JogodoBicho/config/security/AuthConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/config/security/AuthConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/config/security/AuthConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gbizo/API_JogodoBicho/repository/contraventorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gbizo/API_JogodoBicho/repository/contraventorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gbizo/API_JogodoBicho/repository/contraventorRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gbizo/API_JogodoBicho/repository/contraventorRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/config/security/SecurityFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/config/security/SecurityFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/repository/contraventorRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/repository/contraventorRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/service/authService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/service/authService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gbizo/API_JogodoBicho/repository/contraventorRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/gbizo/API_JogodoBicho/repository/contraventorRepositoryTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +61,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;JUnit.contraventorControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.contraventorControllerTest.testGetAllContraventor.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.contraventorControllerTest.testLogin.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.contraventorRepositoryTest.executor&quot;: &quot;Run&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
@@ -73,7 +89,69 @@
     ]
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.contraventorControllerTest">
+    <configuration name="contraventorControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="API_JogodoBicho" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gbizo.API_JogodoBicho.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gbizo.API_JogodoBicho.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.gbizo.API_JogodoBicho.controller.contraventorControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="contraventorControllerTest.testGetAllContraventor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="API_JogodoBicho" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gbizo.API_JogodoBicho.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gbizo.API_JogodoBicho.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.gbizo.API_JogodoBicho.controller.contraventorControllerTest" />
+      <option name="METHOD_NAME" value="testGetAllContraventor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="contraventorControllerTest.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="API_JogodoBicho" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gbizo.API_JogodoBicho.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gbizo.API_JogodoBicho.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.gbizo.API_JogodoBicho.controller.contraventorControllerTest" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="contraventorRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="API_JogodoBicho" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gbizo.API_JogodoBicho.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gbizo.API_JogodoBicho.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.gbizo.API_JogodoBicho.repository.contraventorRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApiJogodoBichoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="API_JogodoBicho" />
@@ -82,6 +160,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.contraventorControllerTest" />
+        <item itemvalue="JUnit.contraventorRepositoryTest" />
+        <item itemvalue="JUnit.contraventorControllerTest.testLogin" />
+        <item itemvalue="JUnit.contraventorControllerTest.testGetAllContraventor" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -113,7 +199,9 @@
       <workItem from="1725559696333" duration="5261000" />
       <workItem from="1725578467310" duration="8132000" />
       <workItem from="1725661419144" duration="3947000" />
-      <workItem from="1725920192013" duration="1939000" />
+      <workItem from="1725920192013" duration="2602000" />
+      <workItem from="1726079145462" duration="6349000" />
+      <workItem from="1726329468796" duration="1161000" />
     </task>
     <servers />
   </component>
