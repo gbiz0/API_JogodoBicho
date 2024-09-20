@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c058f7bc-f0e0-489f-852d-34338d54faba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/gbizo/API_JogodoBicho/controller/contraventorControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application-test.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/98c3c3e0-c011-4c6b-aec8-3e5e15c2fcaa.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/98c3c3e0-c011-4c6b-aec8-3e5e15c2fcaa/storage_v2/_src_/database/jogo_bichoDB.b9Vz1w.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/98c3c3e0-c011-4c6b-aec8-3e5e15c2fcaa/storage_v2/_src_/database/jogo_bichoDB.b9Vz1w/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gbizo/API_JogodoBicho/config/WebConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gbizo/API_JogodoBicho/config/security/AuthConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gbizo/API_JogodoBicho/config/security/AuthConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gbizo/API_JogodoBicho/repository/contraventorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gbizo/API_JogodoBicho/repository/contraventorRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gbizo/API_JogodoBicho/repository/contraventorRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gbizo/API_JogodoBicho/repository/contraventorRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/config/security/SecurityFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/config/security/SecurityFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/repository/contraventorRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/repository/contraventorRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/service/authService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gbizo/API_JogodoBicho/service/authService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gbizo/API_JogodoBicho/repository/contraventorRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/gbizo/API_JogodoBicho/repository/contraventorRepositoryTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +77,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="JUnit.contraventorControllerTest">
+  <component name="RunManager" selected="Spring Boot.ApiJogodoBichoApplication">
     <configuration name="contraventorControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="API_JogodoBicho" />
       <extension name="coverage">
@@ -202,6 +190,7 @@
       <workItem from="1725920192013" duration="2602000" />
       <workItem from="1726079145462" duration="6349000" />
       <workItem from="1726329468796" duration="1161000" />
+      <workItem from="1726835454738" duration="3678000" />
     </task>
     <servers />
   </component>
